@@ -1,0 +1,52 @@
+文件记录-2017-12-30 19:44:26 [restartedMain] INFO  cn.lsj.MySpringBootDome - Starting MySpringBootDome on Y2DALNVX5YTVU62 with PID 1524 (E:\eclipse\workspace\MySpringBoot\target\classes started by Administrator in E:\eclipse\workspace\MySpringBoot)
+文件记录-2017-12-30 19:44:26 [restartedMain] DEBUG cn.lsj.MySpringBootDome - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+文件记录-2017-12-30 19:44:26 [restartedMain] INFO  cn.lsj.MySpringBootDome - No active profile set, falling back to default profiles: default
+文件记录-2017-12-30 19:44:26 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c6c0a: startup date [Sat Dec 30 19:44:26 CST 2017]; root of context hierarchy
+文件记录-2017-12-30 19:44:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+文件记录-2017-12-30 19:44:27 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.lsj.*.mapper]' package. Please check your configuration.
+文件记录-2017-12-30 19:44:28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac08de25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2017-12-30 19:44:29 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+文件记录-2017-12-30 19:44:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+文件记录-2017-12-30 19:44:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.5
+文件记录-2017-12-30 19:44:29 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+文件记录-2017-12-30 19:44:29 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/springboot] - Initializing Spring embedded WebApplicationContext
+文件记录-2017-12-30 19:44:29 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3121 ms
+文件记录-2017-12-30 19:44:30 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2017-12-30 19:44:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2017-12-30 19:44:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2017-12-30 19:44:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2017-12-30 19:44:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c6c0a: startup date [Sat Dec 30 19:44:26 CST 2017]; root of context hierarchy
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/templates/hello]}" onto public java.lang.String cn.lsj.controller.TemplatesController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/templates/helloftl]}" onto public java.lang.String cn.lsj.controller.TemplatesController.helloftl(java.util.Map<java.lang.String, java.lang.Object>)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/templates/hellojsp]}" onto public java.lang.String cn.lsj.controller.TemplatesController.hellojsp(java.util.Map<java.lang.String, java.lang.Object>)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String cn.lsj.controller.UserController.hello()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/showlist]}" onto public java.util.List<cn.lsj.model.User> cn.lsj.controller.UserController.showlist()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user]}" onto public cn.lsj.model.User cn.lsj.controller.UserController.showuser()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public java.util.List<cn.lsj.model.User> cn.lsj.controller.UserController.findAll(int,int)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findbyname]}" onto public java.lang.String cn.lsj.controller.UserController.findbynane(java.lang.String)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findlikename]}" onto public java.lang.String cn.lsj.controller.UserController.findlikenane(java.lang.String)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/tologin]}" onto public java.lang.String cn.lsj.controller.UserController.tologin()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toindex]}" onto public java.lang.String cn.lsj.controller.UserController.toindex()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String cn.lsj.controller.UserController.index()
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8080]
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+文件记录-2017-12-30 19:44:31 [restartedMain] INFO  cn.lsj.MySpringBootDome - Started MySpringBootDome in 6.36 seconds (JVM running for 6.898)
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/springboot] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] DEBUG c.l.mapper.UserMapper.findUserByname - ==>  Preparing: select * from user where username like 'lsj%' 
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] DEBUG c.l.mapper.UserMapper.findUserByname - ==> Parameters: 
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] DEBUG c.l.mapper.UserMapper.findUserByname - <==      Total: 3
+文件记录-2017-12-30 19:44:54 [http-nio-8080-exec-1] DEBUG cn.lsj.controller.UserController - 未知错误
+文件记录-2017-12-30 19:44:56 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: java.lang.ArithmeticException: / by zero
