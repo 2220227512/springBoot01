@@ -1,0 +1,12 @@
+2018-01-01 15:25:29,438 INFO (StartupInfoLogger.java:57)- Started MySpringBootDome in 1.814 seconds (JVM running for 1116.72)
+2018-01-01 15:25:33,742 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username like '%' 
+2018-01-01 15:25:33,745 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-01-01 15:25:33,756 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 19
+2018-01-01 15:25:33,759 ERROR (GlobalDefaultExceptionHandler.java:43)- / by zero
+2018-01-01 15:25:33,759 ERROR (GlobalDefaultExceptionHandler.java:43)- / by zero
+2018-01-01 15:25:33,760 ERROR (GlobalDefaultExceptionHandler.java:44)- java.lang.ArithmeticException: / by zero
+2018-01-01 15:25:33,760 ERROR (GlobalDefaultExceptionHandler.java:44)- java.lang.ArithmeticException: / by zero
+2018-01-01 15:27:02,314 ERROR (GlobalDefaultExceptionHandler.java:44)- / by zero
+2018-01-01 15:27:02,314 ERROR (GlobalDefaultExceptionHandler.java:45)- java.lang.ArithmeticException: / by zero
+2018-01-01 15:32:39,167 ERROR (GlobalDefaultExceptionHandler.java:45)- / by zero
+2018-01-01 15:32:39,168 ERROR (GlobalDefaultExceptionHandler.java:46)- java.lang.ArithmeticException: / by zero
