@@ -1,9 +1,0 @@
-2018-01-01 15:18:40,076 ERROR (GlobalDefaultExceptionHandler.java:42)- ***************
-2018-01-01 15:18:40,077 ERROR (GlobalDefaultExceptionHandler.java:43)- / by zero
-2018-01-01 15:18:40,078 ERROR (GlobalDefaultExceptionHandler.java:44)- ***************
-2018-01-01 15:20:53,673 ERROR (GlobalDefaultExceptionHandler.java:43)- / by zero
-2018-01-01 15:20:53,674 ERROR (GlobalDefaultExceptionHandler.java:44)- java.lang.ArithmeticException: / by zero
-2018-01-01 15:23:49,554 INFO (StartupInfoLogger.java:48)- Starting MySpringBootDome on Y2DALNVX5YTVU62 with PID 4288 (E:\eclipse\workspace\MySpringBoot\target\classes started by Administrator in E:\eclipse\workspace\MySpringBoot)
-2018-01-01 15:23:49,555 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
-2018-01-01 15:23:49,555 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default
-2018-01-01 15:23:51,462 INFO (StartupInfoLogger.java:57)- Started MySpringBootDome in 1.972 seconds (JVM running for 1018.744)
